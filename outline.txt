@@ -1,0 +1,65 @@
+*** referencing the sample image
+
+3 sections
+
+1st section: Header
+- will have cwru emblem and text on upper left
+- centered application title "seating chart"
+
+
+2nd section: left hand nav
+- 2 dropdown sections (will use MUI dropdown componenet)
+    - professor
+    - class
+- Radio selector for sort BY
+    - first, last
+    - last, first
+- Below scrollable window with student tags
+    - image
+    - name (presented as either first, last or last, first)
+
+
+3rd section: classroom and seats
+- dropdown selector to pick what classroom is being selected
+- bottom right button to download image of the classroom
+    - how? idk yet, and what format? idk yet
+
+
+
+Logic used:
+given inputs professor and class, pull a list of students (which will contain their image, as well as name)
+for each student in the list
+map it into a div section which will be a draggable object
+
+given a classroom input, it will put a list of where the seats are that correpond to that classroom
+    - will have to make a classroom for each class
+
+
+index has the app
+app has the home component which should have everything contained
+
+
+heirarchy
+
+home will have everything packaged
+
+
+
+logic:
+
+entire page is the dndcore section thing
+sidebar should map each student into a draggable object.
+    draggable object will have photo, and student name
+    probably some id for the case id?
+the main area for now should just be a grid I can put stuff in
+
+find a way to capture the screen
+
+later on:
+each classroom will have mapped out json objects of each of the div locations, rotation, etc
+given a selected classroom, it will load that json object of droppable components
+
+
+sources:
+https://codesandbox.io/s/react-drag-drop-todo-rwn8d3?file=/src/components/BoardSectionList.tsx
+this looks like a good example to map with a unique ID

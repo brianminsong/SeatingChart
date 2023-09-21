@@ -1,0 +1,45 @@
+{
+    "students": [{
+      "id": "Kirbie_Tejero",
+      "first_name": "Kirbie",
+      "last_name": "Tejero",
+      "image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff",
+      "seat": 0
+    }, {
+      "id": "Ike_Cabbell",
+      "first_name": "Ike",
+      "last_name": "Cabbell",
+      "image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff",
+      "seat": 0
+    }, {
+      "id": "Milo_Wake",
+      "first_name": "Milo",
+      "last_name": "Wake",
+      "image": "http://dummyimage.com/100x100.png/dddddd/000000",
+      "seat": 0
+    }, {
+      "id": "Berkie_Gorrissen",
+      "first_name": "Berkie",
+      "last_name": "Gorrissen",
+      "image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff",
+      "seat": 0
+    }, {
+      "id": "Daron_Fox",
+      "first_name": "Daron",
+      "last_name": "Fox",
+      "image": "http://dummyimage.com/100x100.png/5fa2dd/ffffff",
+      "seat": 0
+    }, {
+      "id": "David_Stern",
+      "first_name": "David",
+      "last_name": "Stern",
+      "image": "http://dummyimage.com/100x100.png/dddadd/000000",
+      "seat": 0
+    }, {
+      "id": "Alex_Caruso",
+      "first_name": "Alex",
+      "last_name": "Caruso",
+      "image": "http://dummyimage.com/100x100.png/5fa2ed/faffff",
+      "seat": 0
+    }]
+}
